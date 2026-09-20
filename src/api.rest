@@ -1,0 +1,9 @@
+POST http://localhost:3000/urls/shorten
+Content-Type: application/json
+
+{
+  "original_url": "https://www.google.com/"
+}
+
+####
+GET http://localhost:3000/urls/redirect?short_code=aRYVFhV
